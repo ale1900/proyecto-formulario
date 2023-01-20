@@ -1,0 +1,57 @@
+@import "variables";
+
+body {
+	background-color: #FDFDFD;
+	font-family: 'Roboto', sans-serif;
+}
+
+#success {
+	width: 60%;
+	padding: 20px;
+	background-color: #F5F5F5;
+	border: 1px solid #dedede;
+	border-radius: 4px;
+	font-size: 12px;
+	margin-top: 150px;
+	h1 {
+		color: #626262;
+		text-align: center;
+		font-family: 'Times New Roman', Times, serif;
+		font-style: italic;
+	}
+	h4 {
+		color: #626262;
+		text-align: center;
+		font-size: 18px;
+		font-weight: 300;
+	}
+}
+button.btn-success {
+	padding: 10px;
+	margin-top: 10px;
+	width: 50%;
+	color: white;
+	background-color: #345043 !important;
+	border: none !important;
+	border-radius: 4px;
+	&:hover {
+		background-color: #23352D !important;
+	}
+}
+img {
+	position: relative;
+	margin-top: -80px;
+	width: 12%;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media (min-width: 300px) and (max-width: 900px) {
+	img {
+		position: relative;
+		margin-top: -80px;
+		width: 30%;
+	}
+}

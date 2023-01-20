@@ -1,0 +1,15 @@
+@import "variables";
+
+.navbar-brand {
+	background-image: url("../img/logo.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 180px;
+	height: 45px;
+	margin-left: 30px;
+}
+
+footer {
+	background-color: $secondary-color;
+}

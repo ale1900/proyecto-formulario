@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+.navbar-brand {
+  background-image: url("../img/logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 180px;
+  height: 45px;
+  margin-left: 30px;
+}
+
+footer {
+  background-color: #EAE3E3;
+}
+
+body {
+  background-color: #FDFDFD;
+  font-family: "Roboto", sans-serif;
+}
+
+#success {
+  width: 60%;
+  padding: 20px;
+  background-color: #F5F5F5;
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-top: 150px;
+}
+#success h1 {
+  color: #626262;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+#success h4 {
+  color: #626262;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+button.btn-success {
+  padding: 10px;
+  margin-top: 10px;
+  width: 50%;
+  color: white;
+  background-color: #345043 !important;
+  border: none !important;
+  border-radius: 4px;
+}
+button.btn-success:hover {
+  background-color: #23352D !important;
+}
+
+img {
+  position: relative;
+  margin-top: -80px;
+  width: 12%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 300px) and (max-width: 900px) {
+  img {
+    position: relative;
+    margin-top: -80px;
+    width: 30%;
+  }
+}
+body {
+  background-color: #FDFDFD;
+  font-family: "Roboto", sans-serif;
+}
+
+.alert {
+  background-color: rgb(26, 26, 26);
+  color: white;
+}
+
+#form {
+  width: 70%;
+  padding: 20px;
+  background-color: #F5F5F5;
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-top: 100px;
+}
+#form h1 {
+  color: #626262;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+#form button {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  color: white;
+  background-color: #345043;
+  border: none;
+  border-radius: 4px;
+}
+#form button:hover {
+  background-color: #23352D;
+}
+
+.input-control {
+  display: flex;
+  flex-direction: column;
+}
+.input-control input {
+  font-size: 12px;
+  padding: 10px;
+}
+.input-control input:focus {
+  outline: 0;
+}
+.input-control select:focus {
+  outline: 0;
+}
+.input-control .error {
+  color: #ff3860;
+  font-size: 11px;
+  height: 13px;
+}
+
+/*Variables*//*# sourceMappingURL=main.css.map */
